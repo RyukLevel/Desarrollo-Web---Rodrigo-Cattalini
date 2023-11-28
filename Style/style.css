@@ -368,3 +368,102 @@ padding: 0 15px;
         right: 43px;
         top: -50px;    
       }
+
+
+      /* Media Query Mobile */
+      @media screen and (max-width: 576px){
+        .navbar-toggler{
+            position: relative;
+            right: 70px;
+        }
+        .footer-menu{
+            display: none;
+        } 
+        .footer-logo{
+            display: none;
+        }
+        .fila-1{
+            justify-content: start;
+        }
+        .fila-2{
+            justify-content: start;
+        }
+        .fila-3{
+            justify-content: start;
+        }
+            .fila-1 img{
+                width: 40%;
+                }
+            .fila-1 h2{
+                display: block;
+                text-align: center;    
+                color: #E7B3B3;
+                margin: 0 0 0 10px;
+                padding: 0;
+                font-size: smaller;        
+            }
+            .fila-1 p{
+                display: inline-block;
+                text-align:left;
+                margin: 0 0 0 10px;
+                padding: 0;
+                font-size: smaller;
+                width: 240px;       
+            }
+
+            .fila-2 img{            
+            width: 40%;
+            margin: 0;            
+            padding: 0;
+            }
+
+            .fila-2 h2{
+                display: block;
+                text-align: right ;    
+                color: #E7B3B3;
+                margin: 0 10px 0 0px;
+                padding: 0;
+                font-size: smaller;        
+            }
+            
+            .fila-2 p{
+                display:inline-block;
+                text-align:right;
+                margin: 0 10px 0 0px;
+                padding: 0;
+                font-size: smaller;
+                width: 240px;    
+            }
+
+            .fila-3 img{
+            width: 40%;
+                }
+                .fila-3 h2{
+                    display: block;
+                    text-align: center;    
+                    color: #E7B3B3;
+                    margin: 0 0 0 10px;
+                    padding: 0;
+                    font-size: smaller;        
+                }
+
+            .fila-3 p{
+                display:inline-block;
+                text-align:left;
+                margin: 0 0 0 10px;
+                padding: 0;
+                font-size: smaller;
+                width: 240px;        
+            }
+            
+        body{
+          background-color: red ;
+        }
+        }
+
+      /* Media Query Tablet */
+      @media screen and (min-width: 577px) and (max-width: 991px) {
+        body{
+          background-color: blue ;
+        }
+        }   
